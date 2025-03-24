@@ -1,0 +1,84 @@
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background: #4e75ff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+     letter-spacing: 0.04em;
+color: #fff;
+}
+.feedback-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 296px;
+    background: #fff;
+}
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42; 
+}
+.feedback-form input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 328px;
+    height: 24px;
+    
+
+}
+.feedback-form textarea {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 328px;
+    height: 60px;
+
+}
+.feedback-form input::placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.feedback-form input:focus::placeholder {
+    opacity: 1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+.feedback-form textarea::placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.feedback-form textarea:focus::placeholder {
+    opacity: 1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
